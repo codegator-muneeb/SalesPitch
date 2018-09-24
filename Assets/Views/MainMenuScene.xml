@@ -1,0 +1,7 @@
+<MainMenuScene>
+    <UserInterface>
+        <MainMenu />
+    </UserInterface>
+    <EventSystem />
+</MainMenuScene>
+          
