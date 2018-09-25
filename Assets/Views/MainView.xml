@@ -10,9 +10,9 @@
 					<Group Spacing="20px">
 						<Group Spacing="10px">
 							<Button Text="Mission" Click="MissionClick" />
-							<Button Text="Services Provided" Click="ServicesClick" />
-							<Button Text="Awards" Click="AwardsClick" />
-							<Button Text="Exchanges" Click="ExchangesClick" />
+							<Button Text="Services Provided" Click="MissionClick" />
+							<Button Text="Awards" Click="MissionClick" />
+							<Button Text="Exchanges" Click="MissionClick" />
 						</Group>
 					</Group>
 
@@ -20,22 +20,7 @@
 			</Region>
 			<Region Id="Mission" >
 		        <Group Spacing="100px" BackgroundColor="#a6bbca" >
-		          <Label Text="Mission" Style="Large" Width="150" Height="50" FontSize="40" FontColor="Red"/>
-		           <List Items="{MissionCards}" Id="FlowList" Overflow="Wrap" Spacing="5" Orientation="Horizontal" Width="600" Height="400" IsScrollable="True">
-			        <ListItem Id="Card1" IsTemplate="True" Width="125" Height="181">
-			          <Image Sprite="Assets/MarkLight/Examples/Sprites/Cards/jack_of_clubs.png" Margin="3" />
-			        </ListItem>
-			        <ListItem Id="Card2" IsTemplate="True" Width="125" Height="181">
-			          <Image Sprite="Assets/Sprites/Cards/queen_of_diamonds.png" Margin="3" />
-			        </ListItem>
-			        <ListItem Id="Card3" IsTemplate="True" Width="125" Height="181">
-			          <Image Sprite="Assets/Sprites/Cards/king_of_spades.png" Margin="3" />
-			        </ListItem>
-			        <ListItem Id="Card4" IsTemplate="True" Width="125" Height="181">
-			          <Image Sprite="Assets/Sprites/Cards/ace_of_hearts.png" Margin="3" />
-			        </ListItem>
-			      </List>
-		          
+		          <Label Text="Move Your camera around" Style="Large" Width="150" Height="50" FontSize="40" FontColor="Red"/>
 		        </Group>
       		</Region>
 		</ViewSwitcher>

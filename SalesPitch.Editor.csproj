@@ -382,6 +382,7 @@
     <Compile Include="Assets\MarkLight\Source\Plugins\Editor\ViewPostprocessor.cs" />
     <Compile Include="Assets\MarkLight\Source\Plugins\Editor\ViewPresenterInspector.cs" />
     <Compile Include="Assets\SamplesResources\SceneAssets\UserDefinedTargets\Scripts\Editor\UDTEventHandlerEditor.cs" />
+    <Compile Include="Assets\Simple Helvetica\Editor\SimpleHelveticaCustomEditor.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -464,6 +465,7 @@
     <None Include="Assets\SamplesResources\SceneAssets\CloudReco\Shaders\CR_Custom_TransparentUnlit.shader" />
     <None Include="Assets\SamplesResources\SceneAssets\ModelTargets\Shaders\RadialTexture.shader" />
     <None Include="Assets\SamplesResources\SceneAssets\VirtualButtons\Shaders\Gradient.shader" />
+    <None Include="Assets\Simple Helvetica\readme.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\MyDB.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
