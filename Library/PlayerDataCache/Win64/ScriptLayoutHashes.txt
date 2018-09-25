@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-G:/socgen/hackathon/Sales Pitch.exe
+C:/Users/Srinivas/SalesPitch/Sales Pitch.exe
 SceneListBegin?
 Assets/SamplesResources/Scenes/0-Splash.unity
 Assets/SamplesResources/Scenes/1-Menu.unity

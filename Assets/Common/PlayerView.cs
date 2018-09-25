@@ -8,7 +8,7 @@ public class PlayerView : MonoBehaviour {
 	private int lookTouchId = -1;
 	private Vector2 touchOrigin;
 
-	public float maxRotationPerSecond = 75f;
+	public float maxRotationPerSecond = 10f;
 	public float mouseRotationSpeed = 100f;
 	public float gyroRotationSpeed = 70f;
 
@@ -90,8 +90,15 @@ public class PlayerView : MonoBehaviour {
 
 	#if UNITY_EDITOR
 	private void MouseInput(){
-		Vector3 rotation = new Vector3(-Input.GetAxis("Mouse Y"), Input.GetAxis("Mouse X"), 0);
+		Vector3 rotation = new Vector3(-Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"), 0);
 		RotateView(rotation * mouseRotationSpeed);
+	}
+
+	private void KeyInput(){
+		if (Input.GetKey(KeyCode.Q))
+      		transform.position += Vector3.left * maxRotationPerSecond * Time.deltaTime;
+		else if (Input.GetKey(KeyCode.E))
+			transform.position += -Vector3.left * maxRotationPerSecond  * Time.deltaTime;
 	}
 	#endif
 
