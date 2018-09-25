@@ -630,13 +630,12 @@
     <None Include="Assets\SamplesResources\SceneAssets\VirtualButtons\Shaders\Gradient.shader" />
     <None Include="Assets\Simple Helvetica\readme.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\MyDB.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\Socgen.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
-    <None Include="Assets\Views\MainMenuScene.xml">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="Assets\Views\MainMenuScene.xml" />
     <None Include="Assets\Views\MainView.xml">
       <SubType>Designer</SubType>
     </None>
